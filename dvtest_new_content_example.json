@@ -1,0 +1,44 @@
+{
+    "nrtest_content": {
+        "SPLEase": "Advanced", 
+        "alertvolume": "Other", 
+        "app": "sample_app", 
+        "category": "IAM Analytics", 
+        "dashboard": "showcase_custom?showcaseId=nrtest_content", 
+        "data_source_categories": "VendorSpecific-AnySplunk", 
+        "description": "This is a piece of test content.", 
+        "displayapp": "Sample App",
+        "additional_context": [
+            {
+                "search": "index=* sourcetype=ponies",
+                "open_panel": true,
+                "title": "Additional Potential Search",
+                "link": "https://www.splunk.com/blog/2016/09/28/buttercup-games.html",
+                "detail": "### Background\n* You may wish to look at all data regarding ponies.\n* Here you will find all of the detail produced by Buttercup Labs Pony Monitoring"
+            },
+            {
+                "title": "Conf file for Adding a New SSE Channel",
+                "search": "[ButtercupLabs]\nchannel=ButtercupLabs\nname=Buttercup Labs\ndescription=Buttercup Labs produces high quality security analytics run through Splunk Enterprise. While Buttercup sells a commercial threat analytics app, they have also released a variety of community content. All is available through Splunk Security Essentials.\ntype=app\napp_context=Splunk_Security_Essentials\ncontent_download_url=https://go.splunksecurityessentials.com/myContentLocation",
+                "detail": "Adding this file and restarting Splunk will register a new content source into SSE.",
+                "search_lang": "conf",
+                "search_label": "Example Configuration",
+                "open_panel": true
+            }
+        ],
+        "domain": "Access", 
+        "hasSearch": "No", 
+        "help": "Help not needed.",
+        "highlight": "Yes", 
+        "icon": "Core_Use_Case.png", 
+        "includeSSE": "Yes", 
+        "journey": "Stage_4", 
+        "mitre": "", 
+        "mitre_tactic": "", 
+        "mitre_technique": "", 
+        "name": "David Test Example", 
+        "released": "3.0.0", 
+        "searchKeywords": "", 
+        "search_name": "", 
+        "usecase": "Security Monitoring"
+    }
+}
